@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Click on a plant to display its information.</h2>
+            <label>Common: <input type="text" id="common"></label>
+            <label>Botanical: <input type="text" id="botanical"></label>
+            <label>Zone: <input type="text" id="zone"></label>
+            <label>Light: <input type="text" id="light"></label>
+            <label>Price: <input type="text" id="price"></label>
+            <label>Availability: <input type="text" id="availability"></label>
+            <button id="save">Save</button>
+            <button id="add">Add</button>
+            <button id="delete">Delete</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="table-section">
+            <table id="plant-table">
+                <thead>
+                    <tr>
+                        <th>Common</th>
+                        <th>Botanical</th>
+                        <th>Zone</th>
+                        <th>Light</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
